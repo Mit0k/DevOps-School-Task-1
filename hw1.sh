@@ -36,6 +36,6 @@ function isDirectoryExist()
 if isRunnedAsRoot && isUserExist $1 && isDirectoryExist $2
 then
 	echo `chown -R $1 $2` &> /dev/null
-	echo "Succefully done" 
+	echo "Successfully done" 
 fi
 
